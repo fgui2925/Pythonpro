@@ -17,7 +17,7 @@ class MyFrame(wx.Frame):
         # 创建面板中的盒子
         box=wx.BoxSizer(wx.VERTICAL) # 垂直方向布局
         # 创建可伸缩的网格布局
-        fgz1=wx.FlexGridSizer(wx.HSCROLL) #水平方向布局
+        fgz1=wx.FlexGridSizer(wx.HSCROLL) #水平方向布局1
         # 创建两个按钮
         conn_btn=wx.Button(pl,size=(200,40),label='连接')
         dis_conn_btn=wx.Button(pl,size=(200,40),label='断开')
