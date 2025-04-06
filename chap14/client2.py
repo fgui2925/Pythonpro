@@ -12,7 +12,7 @@ class MyFrame(wx.Frame):
         # pos:窗体的打开位置
         # size:窗体的大小，单位是像素，400是宽，450是高
         wx.Frame.__init__(self,None,id=1001,title=client_name+'的客户端界面',pos=wx.DefaultPosition,size=wx.Size(400,450))
-        # 创建面板对象
+        # 创建面板对象123
         pl=wx.Panel(self)
         # 创建面板中的盒子
         box=wx.BoxSizer(wx.VERTICAL) # 垂直方向布局
